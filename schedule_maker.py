@@ -9,7 +9,7 @@ import pandas as pd
 import os
 
 'input path to madden folder'
-path = input("What is the path to the madden folder (add '\\' to end)? ")
+path = input("What is the path to the madden export folder (add '\\' to end)? ")
 
 'replace \ from file location to /'
 path = path.replace("\\","/")
