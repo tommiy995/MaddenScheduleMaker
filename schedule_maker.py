@@ -70,11 +70,13 @@ pvp = pd.DataFrame()
 pvp = user_schedule[cols]
 pvp['Visiting Outcome']= ''
 pvp['Home Outcome']= ''
-pvp['Discord Message']= ''
+#pvp['Discord Message']= ''
 pvp[''] = ''
 pvp['Start Date'] = ''
 pvp['Last Day to Play Game'] = ''
-cols = ['weekIndex','Start Date', 'Last Day to Play Game', 'awayTeamId', 'awayScore','', 'homeScore', 'homeTeamId', 'Visiting Outcome', 'Home Outcome', 'Discord Message']
+cols = ['weekIndex','Start Date', 'Last Day to Play Game', 'awayTeamId', 
+        'awayScore','', 'homeScore', 'homeTeamId', 'Visiting Outcome', 
+        'Home Outcome']
 pvp = pvp[cols]
 pvp = pvp[pvp['awayTeamId'].isin(userlist) & pvp['homeTeamId'].isin(userlist)]
 
