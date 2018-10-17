@@ -15,6 +15,8 @@ add a '\' character to the end
 
 when you press enter it should create a new .xlsx file "Madden Schedule.xlsx" in that folder above!
 
+pictures here: https://imgur.com/a/EH1G8T8
+
 if you have any issues please message me on reddit:
 
   /u/ThamasTheDankEngine
