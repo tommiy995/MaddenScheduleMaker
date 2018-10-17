@@ -5,6 +5,8 @@ first you need to export the .csv files (I suggest this site https://maddenexpor
 
 download and unzip the files somewhere on your computer, make note of the folder location. 
 
+now download the schedule_maker.zip file and unzip it, giving you schedule_maker.exe
+
 run the schedule_maker.exe 
 
 it will ask for the path to the madden export folder 
